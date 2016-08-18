@@ -1,0 +1,63 @@
+
+body
+{
+	-webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+header
+{
+	background-color: gray;
+	color:#e3e3e3;
+	border-radius: 30px 30px;
+	text-align:center;
+	height: 50px;
+}
+table
+{
+	margin: 0px;
+}
+table td
+{
+	border:2px solid;
+	text-align:center;
+	font-size:15PX;
+}
+#slide
+{
+	width: 960px;
+	height:300px;
+	margin-bottom:20px;
+}
+
+#searchBox
+{
+	width:250px;
+	height:50px;
+	font-size: 25px;
+}
+#searct-btn
+{
+	width:50px;
+	height:50px;
+	font-size: 25px;
+}
+
+#searchWords
+{
+	width:250px;
+	height:50px;
+	font-size: 25px;
+}
+#search-btn-words
+{
+	width:50px;
+	height:50px;
+	font-size: 25px;
+}
+
+@media (max-width: 480px) {
+	    #details {
+        width: 80%;
+    }
+}
+
